@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>Animal Center - Serviços</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Clínica Veterinária, cuidados com animais, saúde animal" name="keywords">
+    <meta content="Serviços oferecidos pela Animal Center, clínica veterinária 24 horas." name="description">
+
+    <link href="img/favicon.ico" rel="icon">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">  
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<style>
+/* Estilos padrão para telas maiores */
+.service-item-flex img {
+  width: 150px;
+  height: 180px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+/* Media query para telas pequenas */
+@media only screen and (max-width: 768px) {
+  .service-item-flex {
+    flex-direction: column;
+  }
+
+  .service-item-flex img {
+    width: 100%; /* Ajuste a largura da imagem para preencher o container */
+    height: auto; /* Mantenha a proporção da imagem */
+    margin-bottom: 20px; /* Espaço abaixo da imagem antes do texto */
+  }
+}
+
+</style>
+<body>
+    <div class="container-fluid border-bottom d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-4 text-center py-2">
+                <div class="d-inline-flex align-items-center">
+                    <i class="bi bi-geo-alt fs-1 text-primary me-3"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase mb-1">Endereço</h6>
+                        <span>Avenida do Canal, 294 - Atila de Paiva - Barreiro</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center border-start border-end py-2">
+                <div class="d-inline-flex align-items-center">
+                    <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase mb-1">Telefone</h6>
+                        <span>(31) 3292-0940</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center py-2">
+                <div class="d-inline-flex align-items-center">
+                    <a href="https://www.instagram.com/animalcenter24hrs/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-instagram fs-1 text-primary me-3"></i>
+                    </a>
+                    <div class="text-start">
+                        <h6 class="text-uppercase mb-1">Siga-nos</h6>
+                        <span>@animalcenter24hrs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0 mb-5">
+        <a href="index.html" class="navbar-brand ms-lg-5">
+            <img src="img/logo.png" alt="Logo da Animal Center" height="80"> 
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="service.html" class="nav-item nav-link active">Serviços</a>
+                <a href="team.html" class="nav-item nav-link">Equipe</a>
+                <a href="contact.html" class="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5">Contato <i class="bi bi-arrow-right"></i></a>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid py-5">
+    <div class="container">
+        <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
+            <h6 class="text-primary text-uppercase">Serviços</h6>
+            <h1 class="display-5 text-uppercase mb-0">Nossos Excelentes Serviços Veterinários</h1>
+        </div>
+        <div class="row g-5">
+            <div class="col-md-6">
+                <div class="service-item-flex bg-light d-flex flex-column flex-md-row p-4">
+                    <img src="img/consulta.png" alt="Consulta Veterinária" class="align-self-start align-self-md-center" style="width: 150px; height: 180px; object-fit: cover; margin-right: 20px;">
+                    <div>
+                        <h5 class="text-uppercase mb-3">Consultas</h5>
+                        <p>Nossas consultas são completas e personalizadas para cada animal, com foco na prevenção, diagnóstico e tratamento de doenças. Realizamos exames clínicos detalhados, solicitamos exames complementares quando necessário e oferecemos um plano de tratamento individualizado para garantir a saúde e o bem-estar do seu pet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="service-item-flex bg-light d-flex flex-column flex-md-row p-4">
+                    <img src="img/vacina.png" alt="Vacinação" class="align-self-start align-self-md-center" style="width: 150px; height: 180px; object-fit: cover; margin-right: 20px;">
+                    <div>
+                        <h5 class="text-uppercase mb-3">Vacinação</h5>
+                        <p>Oferecemos um programa de vacinação completo para cães e gatos, com as melhores vacinas do mercado. Nossos veterinários irão orientá-lo sobre o protocolo de vacinação mais adequado para o seu pet, levando em consideração sua idade, estilo de vida e histórico de saúde.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="service-item-flex bg-light d-flex flex-column flex-md-row p-4">
+                    <img src="img/cirurgia.jpg" alt="Cirurgia Veterinária" class="align-self-start align-self-md-center" style="width: 150px; height: 180px; object-fit: cover; margin-right: 20px;">
+                    <div>
+                        <h5 class="text-uppercase mb-3">Cirurgias</h5>
+                        <p>Realizamos cirurgias gerais e especializadas, desde castrações até procedimentos mais complexos, com equipamentos modernos e equipe altamente qualificada. Nosso centro cirúrgico é equipado com tecnologia de ponta para garantir a segurança e o sucesso das cirurgias.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="service-item-flex bg-light d-flex flex-column flex-md-row p-4">
+                    <img src="img/exames.png" alt="Exames Laboratoriais" class="align-self-start align-self-md-center" style="width: 150px; height: 180px; object-fit: cover; margin-right: 20px;">
+                    <div>
+                        <h5 class="text-uppercase mb-3">Exames Laboratoriais</h5>
+                        <p>Contamos com um laboratório próprio para realizar diversos exames, como hemograma, bioquímica, urinálise, testes de diagnóstico rápido e outros. Nossos equipamentos são modernos e nossos profissionais são especializados em medicina laboratorial veterinária.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="service-item-flex bg-light d-flex flex-column flex-md-row p-4">
+                    <img src="img/internacao.png" alt="Internação" class="align-self-start align-self-md-center" style="width: 150px; height: 180px; object-fit: cover; margin-right: 20px;">
+                    <div>
+                        <h5 class="text-uppercase mb-3">Internação</h5>
+                        <p>Nossa estrutura de internação oferece um ambiente seguro e acolhedor para animais que necessitam de cuidados intensivos. Contamos com equipe de plantão 24 horas por dia, monitoramento constante e equipamentos modernos para garantir o bem-estar do seu pet durante a recuperação.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="service-item-flex bg-light d-flex flex-column flex-md-row p-4">
+                    <img src="img/farmacia.png" alt="Farmácia Veterinária" class="align-self-start align-self-md-center" style="width: 150px; height: 180px; object-fit: cover; margin-right: 20px;">
+                    <div>
+                        <h5 class="text-uppercase mb-3">Farmácia Veterinária</h5>
+                        <p>Em nossa farmácia veterinária, você encontra uma variedade de medicamentos, antiparasitários, suplementos e produtos de higiene para cães e gatos. Nossos profissionais estão sempre disponíveis para orientá-lo sobre a escolha dos melhores produtos para o seu pet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a href="#" class="btn btn-primary py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
